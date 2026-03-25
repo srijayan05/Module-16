@@ -24,12 +24,22 @@ To write a Python program to construct an **AVL tree** and print the nodes of it
 ---
 
 ## PYTHON PROGRAM
-```
-ENTER YOUR CODE HERE
+```python
+#Reg.no:212222060253
+#Name: SRIJAYAN T
+from TreeAVL.AVL import AVL
+
+def getDictTree(self):
+ return self.dict_tree
+
+def Construct_AVL(L):
+    tree = AVL(L)
+    print(getDictTree(tree))
 ```
 
 ## OUTPUT
-```
-```
+<img width="806" height="89" alt="image" src="https://github.com/user-attachments/assets/fb413543-ae3b-49fc-bc6c-7d2a1d41884d" />
+
 
 ## RESULT
+Thus the program to construct an AVL tree and print the nodes of it has been implemented and executed successfully.
